@@ -31,16 +31,16 @@ int main() {
         printf("4. Search by Author\n");
         printf("5. Exit\n");
         printf("Enter your choice: ");
-        scanf("%2d", &choice);
+        scanf("%d", &choice);
 
         switch (choice) {
             case 1:
                 if (numBooks < MAX_BOOKS) {
                     struct Book newBook;
                     printf("Enter Title: ");
-                    scanf(" %99[^\n]", newBook.title);
+                    scanf(" %[^\n]", newBook.title);
                     printf("Enter Author: ");
-                    scanf(" %49[^\n]", newBook.author);
+                    scanf(" %[^\n]", newBook.author);
                     printf("Enter Year: ");
                     scanf("%d", &newBook.year);
 

@@ -6,7 +6,6 @@ int main() {
     char operator;
 
     //Print starting the program
-    printf("Simple Calculator\n");
 
     printf("Enter an operator (+, -, *, /): ");
     scanf(" %c", &operator);

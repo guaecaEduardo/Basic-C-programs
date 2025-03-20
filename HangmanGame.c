@@ -1,6 +1,7 @@
 // HangmanGame.c
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 #include <time.h>
 
 #define MAX_ATTEMPTS 6
@@ -29,7 +30,7 @@ int main() {
     srand(time(0));
     const char* wordToGuess = getRandomWord();
     int wordLength = strlen(wordToGuess);
-    char guessedWord[wordLength + 1];
+    char guessedWord[wordLength];
     int attempts = 0;
 
     for (int i = 0; i < wordLength; i++) {
