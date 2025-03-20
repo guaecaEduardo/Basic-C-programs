@@ -31,7 +31,7 @@ int main() {
         printf("4. Search by Author\n");
         printf("5. Exit\n");
         printf("Enter your choice: ");
-        scanf("%d", &choice);
+        scanf("%2d", &choice);
 
         switch (choice) {
             case 1:
