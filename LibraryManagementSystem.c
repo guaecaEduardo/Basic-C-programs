@@ -38,9 +38,9 @@ int main() {
                 if (numBooks < MAX_BOOKS) {
                     struct Book newBook;
                     printf("Enter Title: ");
-                    scanf(" %[^\n]", newBook.title);
+                    scanf(" %99[^\n]", newBook.title);
                     printf("Enter Author: ");
-                    scanf(" %[^\n]", newBook.author);
+                    scanf(" %49[^\n]", newBook.author);
                     printf("Enter Year: ");
                     scanf("%d", &newBook.year);
 
@@ -68,7 +68,7 @@ int main() {
                 } else {
                     char searchTitle[100];
                     printf("Enter the title to search: ");
-                    scanf(" %[^\n]", searchTitle);
+                    scanf(" %99[^\n]", searchTitle);
                     int found = 0;
                     for (int i = 0; i < numBooks; i++) {
                         if (strcmp(searchTitle, library[i].title) == 0) {
@@ -87,7 +87,7 @@ int main() {
                 } else {
                     char searchAuthor[50];
                     printf("Enter the author to search: ");
-                    scanf(" %[^\n]", searchAuthor);
+                    scanf(" %49[^\n]", searchAuthor);
                     int found = 0;
                     for (int i = 0; i < numBooks; i++) {
                         if (strcmp(searchAuthor, library[i].author) == 0) {
