@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11164495583519135761">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\OneDrive\OneDrive - Guaeca\demoClient\Actia_Toulouse\demoMisra\Basic-Projects-in-C-Programming\StudentGradeBook.c" line="2" column="0"/>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;grades&apos; can be declared as const array" verbose="Parameter &apos;grades&apos; can be declared as const array" cwe="398" file0="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c">
+            <location file="C:\OneDrive\OneDrive - Guaeca\demoClient\Actia_Toulouse\demoMisra\Basic-Projects-in-C-Programming\StudentGradeBook.c" line="7" column="28" info="Parameter &apos;grades&apos; can be declared as const array"/>
+            <symbol>grades</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;grades&apos; can be declared as const array" verbose="Parameter &apos;grades&apos; can be declared as const array" cwe="398" file0="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c">
+            <location file="C:\OneDrive\OneDrive - Guaeca\demoClient\Actia_Toulouse\demoMisra\Basic-Projects-in-C-Programming\StudentGradeBook.c" line="16" column="21" info="Parameter &apos;grades&apos; can be declared as const array"/>
+            <symbol>grades</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;grades&apos; can be declared as const array" verbose="Parameter &apos;grades&apos; can be declared as const array" cwe="398" file0="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c">
+            <location file="C:\OneDrive\OneDrive - Guaeca\demoClient\Actia_Toulouse\demoMisra\Basic-Projects-in-C-Programming\StudentGradeBook.c" line="27" column="20" info="Parameter &apos;grades&apos; can be declared as const array"/>
+            <symbol>grades</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c:7:7" call-funcname="calculateAverage" call-argnr="1" file="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c" line="66" col="65" call-argexpr="grades" call-argvaluetype="7" call-argvalue="200" call-argvalue-ufr="0"/><function-call call-id="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c:16:5" call-funcname="findHighest" call-argnr="1" file="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c" line="69" col="58" call-argexpr="grades" call-argvaluetype="7" call-argvalue="200" call-argvalue-ufr="0"/><function-call call-id="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c:27:5" call-funcname="findLowest" call-argnr="1" file="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c" line="72" col="56" call-argexpr="grades" call-argvaluetype="7" call-argvalue="200" call-argvalue-ufr="0"/>  </FileInfo>
+  <FileInfo check="Bounds checking">
+    <array-index>
+    <unsafe-usage my-id="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c:16:5" my-argnr="1" my-argname="grades" file="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c" line="17" col="19" value="0"/>
+    <unsafe-usage my-id="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c:27:5" my-argnr="1" my-argname="grades" file="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c" line="28" col="18" value="0"/>
+    </array-index>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c:16:5" my-argnr="1" my-argname="grades" file="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c" line="17" col="19" value="0"/>
+    <unsafe-usage my-id="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c:27:5" my-argnr="1" my-argname="grades" file="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c" line="28" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c:16:5" my-argnr="1" my-argname="grades" file="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c" line="17" col="19" value="0"/>
+    <unsafe-usage my-id="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c:27:5" my-argnr="1" my-argname="grades" file="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c" line="28" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c" functionName="calculateAverage" lineNumber="7"/>
+    <functiondecl file="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c" functionName="findHighest" lineNumber="16"/>
+    <functiondecl file="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c" functionName="findLowest" lineNumber="27"/>
+    <functiondecl file="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c" functionName="main" lineNumber="37"/>
+    <functioncall functionName="calculateAverage"/>
+    <functioncall functionName="findHighest"/>
+    <functioncall functionName="findLowest"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="scanf"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="736045613798261056">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\OneDrive\OneDrive - Guaeca\demoClient\Actia_Toulouse\demoMisra\Basic-Projects-in-C-Programming\Calculator.c" line="2" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/Calculator.c" functionName="main" lineNumber="4"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="scanf"/>
+  </FileInfo>
+</analyzerinfo>

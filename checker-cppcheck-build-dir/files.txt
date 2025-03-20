@@ -1,0 +1,6 @@
+Calculator.a1::C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/Calculator.c
+ContactManagementSystem.a1::C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/ContactManagementSystem.c
+HangmanGame.a1::C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/HangmanGame.c
+LibraryManagementSystem.a1::C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/LibraryManagementSystem.c
+NumberGuess.a1::C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/NumberGuess.c
+StudentGradeBook.a1::C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/StudentGradeBook.c
