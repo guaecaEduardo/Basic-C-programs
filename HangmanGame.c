@@ -29,7 +29,7 @@ int main() {
     srand(time(0));
     const char* wordToGuess = getRandomWord();
     int wordLength = strlen(wordToGuess);
-    char guessedWord[wordLength];
+    char guessedWord[wordLength + 1];
     int attempts = 0;
 
     for (int i = 0; i < wordLength; i++) {
