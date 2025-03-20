@@ -1,4 +1,3 @@
-// StudentGradeBook.c
 #include <stdio.h>
 
 #define MAX_STUDENTS 50
