@@ -1,0 +1,4 @@
+calculateAverage
+findHighest
+findLowest
+main call:[calculateAverage,findHighest,findLowest,printf,scanf] noreturn:[printf,scanf]

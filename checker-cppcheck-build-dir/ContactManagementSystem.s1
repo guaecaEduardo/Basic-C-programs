@@ -1,0 +1,2 @@
+displayContact call:[printf] noreturn:[printf]
+main call:[displayContact,printf,scanf] noreturn:[displayContact,printf]

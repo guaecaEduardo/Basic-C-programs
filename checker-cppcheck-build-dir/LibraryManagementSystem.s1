@@ -1,0 +1,2 @@
+displayBook call:[printf] noreturn:[printf]
+main call:[displayBook,printf,scanf,strcmp] noreturn:[displayBook,printf]

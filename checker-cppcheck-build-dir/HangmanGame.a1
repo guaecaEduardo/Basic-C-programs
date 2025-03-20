@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="13038550494892052126">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\OneDrive\OneDrive - Guaeca\demoClient\Actia_Toulouse\demoMisra\Basic-Projects-in-C-Programming\HangmanGame.c" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\OneDrive\OneDrive - Guaeca\demoClient\Actia_Toulouse\demoMisra\Basic-Projects-in-C-Programming\HangmanGame.c" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\OneDrive\OneDrive - Guaeca\demoClient\Actia_Toulouse\demoMisra\Basic-Projects-in-C-Programming\HangmanGame.c" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\OneDrive\OneDrive - Guaeca\demoClient\Actia_Toulouse\demoMisra\Basic-Projects-in-C-Programming\HangmanGame.c" line="5" column="0"/>
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/HangmanGame.c">
+            <location file="C:\OneDrive\OneDrive - Guaeca\demoClient\Actia_Toulouse\demoMisra\Basic-Projects-in-C-Programming\HangmanGame.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/HangmanGame.c" functionName="getRandomWord" lineNumber="24"/>
+    <functiondecl file="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/HangmanGame.c" functionName="main" lineNumber="29"/>
+    <functioncall functionName="getRandomWord"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="rand"/>
+    <functioncall functionName="scanf"/>
+    <functioncall functionName="srand"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="time"/>
+  </FileInfo>
+</analyzerinfo>

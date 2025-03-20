@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="6701220720827542163">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\OneDrive\OneDrive - Guaeca\demoClient\Actia_Toulouse\demoMisra\Basic-Projects-in-C-Programming\ContactManagementSystem.c" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\OneDrive\OneDrive - Guaeca\demoClient\Actia_Toulouse\demoMisra\Basic-Projects-in-C-Programming\ContactManagementSystem.c" line="3" column="0"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.\012\012Sample program that can crash:\012\012#include &lt;stdio.h&gt;\012int main()\012{\012    char c[5];\012    scanf(&quot;%s&quot;, c);\012    return 0;\012}\012\012Typing in 5 or more characters may make the program crash. The correct usage here is &apos;scanf(&quot;%4s&quot;, c);&apos;, as the maximum field width does not include the terminating null byte.\012Source: http://linux.die.net/man/3/scanf\012Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/ContactManagementSystem.c">
+            <location file="C:\OneDrive\OneDrive - Guaeca\demoClient\Actia_Toulouse\demoMisra\Basic-Projects-in-C-Programming\ContactManagementSystem.c" line="39" column="21"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.\012\012Sample program that can crash:\012\012#include &lt;stdio.h&gt;\012int main()\012{\012    char c[5];\012    scanf(&quot;%s&quot;, c);\012    return 0;\012}\012\012Typing in 5 or more characters may make the program crash. The correct usage here is &apos;scanf(&quot;%4s&quot;, c);&apos;, as the maximum field width does not include the terminating null byte.\012Source: http://linux.die.net/man/3/scanf\012Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/ContactManagementSystem.c">
+            <location file="C:\OneDrive\OneDrive - Guaeca\demoClient\Actia_Toulouse\demoMisra\Basic-Projects-in-C-Programming\ContactManagementSystem.c" line="41" column="21"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.\012\012Sample program that can crash:\012\012#include &lt;stdio.h&gt;\012int main()\012{\012    char c[5];\012    scanf(&quot;%s&quot;, c);\012    return 0;\012}\012\012Typing in 5 or more characters may make the program crash. The correct usage here is &apos;scanf(&quot;%4s&quot;, c);&apos;, as the maximum field width does not include the terminating null byte.\012Source: http://linux.die.net/man/3/scanf\012Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/ContactManagementSystem.c">
+            <location file="C:\OneDrive\OneDrive - Guaeca\demoClient\Actia_Toulouse\demoMisra\Basic-Projects-in-C-Programming\ContactManagementSystem.c" line="43" column="21"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/ContactManagementSystem.c" functionName="displayContact" lineNumber="15"/>
+    <functiondecl file="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/ContactManagementSystem.c" functionName="main" lineNumber="21"/>
+    <functioncall functionName="displayContact"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="scanf"/>
+  </FileInfo>
+</analyzerinfo>

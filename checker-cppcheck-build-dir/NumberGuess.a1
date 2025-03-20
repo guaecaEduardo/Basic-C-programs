@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11766749525078139785">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\OneDrive\OneDrive - Guaeca\demoClient\Actia_Toulouse\demoMisra\Basic-Projects-in-C-Programming\NumberGuess.c" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\OneDrive\OneDrive - Guaeca\demoClient\Actia_Toulouse\demoMisra\Basic-Projects-in-C-Programming\NumberGuess.c" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\OneDrive\OneDrive - Guaeca\demoClient\Actia_Toulouse\demoMisra\Basic-Projects-in-C-Programming\NumberGuess.c" line="4" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl file="C:/OneDrive/OneDrive - Guaeca/demoClient/Actia_Toulouse/demoMisra/Basic-Projects-in-C-Programming/NumberGuess.c" functionName="main" lineNumber="6"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="rand"/>
+    <functioncall functionName="scanf"/>
+    <functioncall functionName="srand"/>
+    <functioncall functionName="time"/>
+  </FileInfo>
+</analyzerinfo>

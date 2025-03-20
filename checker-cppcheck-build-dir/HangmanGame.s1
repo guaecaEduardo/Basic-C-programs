@@ -1,0 +1,2 @@
+getRandomWord global:[words] call:[rand]
+main call:[getRandomWord,printf,scanf,srand,strcmp,strlen,time] noreturn:[printf]
