@@ -4,7 +4,7 @@
 #define MAX_STUDENTS 50
 
 // Function to calculate the average of an array of grades
-float calculateAverage(int const grades[], int numStudents) {
+float calculateAverage(int grades[], int numStudents) {
     float sum = 0;
     for (int i = 0; i < numStudents; i++) {
         sum += grades[i];

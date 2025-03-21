@@ -68,7 +68,7 @@ int main() {
                 } else {
                     char searchTitle[100];
                     printf("Enter the title to search: ");
-                    scanf(" %99[^\n]", searchTitle);
+                    scanf(" %[^\n]", searchTitle);
                     int found = 0;
                     for (int i = 0; i < numBooks; i++) {
                         if (strcmp(searchTitle, library[i].title) == 0) {
@@ -87,7 +87,7 @@ int main() {
                 } else {
                     char searchAuthor[50];
                     printf("Enter the author to search: ");
-                    scanf(" %49[^\n]", searchAuthor);
+                    scanf(" %[^\n]", searchAuthor);
                     int found = 0;
                     for (int i = 0; i < numBooks; i++) {
                         if (strcmp(searchAuthor, library[i].author) == 0) {
