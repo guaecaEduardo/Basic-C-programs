@@ -42,6 +42,7 @@ int main() {
                     printf("Enter Email: ");
                     scanf(" %[^\n]", newContact.email);
 
+
                     contacts[numContacts] = newContact;
                     numContacts++;
                     printf("Contact added successfully.\n");
