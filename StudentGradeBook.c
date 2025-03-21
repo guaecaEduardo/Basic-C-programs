@@ -13,7 +13,7 @@ float calculateAverage(int const grades[], int numStudents) {
 }
 
 // Function to find the highest score in an array of grades
-int findHighest(int grades[], int numStudents) {
+int findHighest(int const grades[], int numStudents) {
     int highest = grades[0];
     for (int i = 1; i < numStudents; i++) {
         if (grades[i] > highest) {
@@ -24,7 +24,7 @@ int findHighest(int grades[], int numStudents) {
 }
 
 // Function to find the lowest score in an array of grades
-int findLowest(int grades[], int numStudents) {
+int findLowest(int const grades[], int numStudents) {
     int lowest = grades[0];
     for (int i = 1; i < numStudents; i++) {
         if (grades[i] < lowest) {
