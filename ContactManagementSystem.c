@@ -36,11 +36,14 @@ int main() {
                 if (numContacts < MAX_CONTACTS) {
                     struct Contact newContact;
                     printf("Enter Name: ");
-                    scanf(" %[^\n]", newContact.name);
+                    scanf(" %49[^
+]", newContact.name);
                     printf("Enter Phone: ");
-                    scanf(" %[^\n]", newContact.phone);
+                    scanf(" %14[^
+]", newContact.phone);
                     printf("Enter Email: ");
-                    scanf(" %[^\n]", newContact.email);
+                    scanf(" %49[^
+]", newContact.email);
 
 
                     contacts[numContacts] = newContact;
