@@ -40,7 +40,7 @@ int main() {
                     printf("Enter Phone: ");
                     scanf(" %14[^\n]", newContact.phone);
                     printf("Enter Email: ");
-                    scanf(" %49[^\n]", newContact.email);
+                    scanf(" %49s", newContact.email); // Modified this line
 
 
                     contacts[numContacts] = newContact;
