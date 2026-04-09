@@ -1,4 +1,4 @@
-// ContactManagementSystem.c
+# ContactManagementSystem.c
 #include <stdio.h>
 #include <string.h>
 
@@ -29,18 +29,25 @@ int main() {
         printf("2. View Contacts\n");
         printf("3. Exit\n");
         printf("Enter your choice: ");
-        scanf("%d", &choice);
+        // Fix: Add field width specifier to scanf to prevent buffer overflow
+        scanf("%1d", &choice); // Limit input to a single digit for choice
+
+        // Consume the newline character left in the input buffer
+        while (getchar() != '\n');
 
         switch (choice) {
             case 1:
                 if (numContacts < MAX_CONTACTS) {
                     struct Contact newContact;
                     printf("Enter Name: ");
-                    scanf(" %49[^\n]", newContact.name);
+                    fgets(newContact.name, sizeof(newContact.name), stdin);
+                    newContact.name[strcspn(newContact.name, "\n")] = 0;
                     printf("Enter Phone: ");
-                    scanf(" %14[^\n]", newContact.phone);
+                    fgets(newContact.phone, sizeof(newContact.phone), stdin);
+                    newContact.phone[strcspn(newContact.phone, "\n")] = 0;
                     printf("Enter Email: ");
-                    scanf(" %49[^\n]", newContact.email);
+                    fgets(newContact.email, sizeof(newContact.email), stdin);
+                    newContact.email[strcspn(newContact.email, "\n")] = 0;
 
 
                     contacts[numContacts] = newContact;
